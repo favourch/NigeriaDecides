@@ -1,5 +1,3 @@
-# google-sheets-to-html
-JavaScript that draws a Google Sheets document into an HTML table (includes base web template)
+# NigeriaDecides2019
+JavaScript that draws a Google Sheets document into an HTML table for the Polling results of the 2019 General Election in Nigeria.
 
-You can find more details and usage for this at my blog:
-https://blog.crunchprank.net/google-sheets-to-html-table/
