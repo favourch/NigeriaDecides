@@ -15,8 +15,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/13Mb-Rerw0716AgAljf5vg7EKFRB1fUV9233SD_KoKn0/edit?usp=sharing');
-    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/13Mb-Rerw0716AgAljf5vg7EKFRB1fUV9233SD_KoKn0/edit#gid=0&range=A8:H17');
+     var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/13Mb-Rerw0716AgAljf5vg7EKFRB1fUV9233SD_KoKn0/edit#gid=0&range=A8:H17');
    query.setQuery('SELECT A, B, C, D, E, F, G label A "#NIGERIADECIDES2019", B "APC", C "PDP", D "DIFFERENCE",E "Who WON",F "% APC",G "% PDP"');
     query.send(handleQueryResponse);
 }
