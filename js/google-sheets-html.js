@@ -16,7 +16,7 @@ var visualization;
 
 function drawVisualization() {
     var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/13Mb-Rerw0716AgAljf5vg7EKFRB1fUV9233SD_KoKn0/edit?usp=sharing');
-    query.setQuery('SELECT A, B, C, D label A "Duration", B "APC", C "PDP", D "URL"');
+    query.setQuery('SELECT A, B, C, D, E, F, G label A "#NIGERIADECIDES2019", B "APC", C "PDP", D "URL"');
     query.send(handleQueryResponse);
 }
 
